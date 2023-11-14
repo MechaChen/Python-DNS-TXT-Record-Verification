@@ -3,6 +3,7 @@
   "hostRequirements": {
     "cpus": 4
   },
+  "extensions": ["pkief.material-icon-theme"],
   "waitFor": "onCreateCommand",
   "updateContentCommand": "pip install -r requirements.txt",
   "postCreateCommand": "",
